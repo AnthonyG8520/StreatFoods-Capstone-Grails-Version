@@ -1,9 +1,10 @@
-package streatfoods.capstone.grails.version
+package org.grails.guides
 
 import grails.testing.gorm.DomainUnitTest
+import org.grails.guides.Menu
 import spock.lang.Specification
 
-class TruckSpec extends Specification implements DomainUnitTest<Truck> {
+class MenuSpec extends Specification implements DomainUnitTest<Menu> {
 
     def setup() {
     }

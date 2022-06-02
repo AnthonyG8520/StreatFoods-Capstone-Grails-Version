@@ -1,9 +1,10 @@
-package streatfoods.capstone.grails.version
+package org.grails.guides
 
 import grails.testing.gorm.DomainUnitTest
+import org.grails.guides.User
 import spock.lang.Specification
 
-class ReviewSpec extends Specification implements DomainUnitTest<Review> {
+class UserSpec extends Specification implements DomainUnitTest<User> {
 
     def setup() {
     }

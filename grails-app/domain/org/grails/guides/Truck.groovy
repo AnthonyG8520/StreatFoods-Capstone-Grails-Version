@@ -1,10 +1,10 @@
-package streatfoods.capstone.grails.version
+package org.grails.guides
 
 class Truck {
 
     static hasOne = [truckOwner: User]
 
-    static hasMany = [menu: List<Menu>, reviews: List<Review>]
+    static hasMany = [menu: Menu, reviews: Review]
 
     String name
 

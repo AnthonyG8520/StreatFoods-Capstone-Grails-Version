@@ -1,10 +1,10 @@
-package streatfoods.capstone.grails.version
+package org.grails.guides
 
 class User {
 
     static hasOne = [truck: Truck]
 
-    static hasMany = [reviews: List<Review>]
+    static hasMany = [reviews: Review]
 
     String username
 
@@ -15,6 +15,8 @@ class User {
     boolean truckOwner
 
     static constraints = {
+        truck nullable: true
+
         username nullable: false, unique: true
 
         password nullable: false

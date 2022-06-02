@@ -1,4 +1,4 @@
-package streatfoods.capstone.grails.version
+package org.grails.guides
 
 class Menu {
 
