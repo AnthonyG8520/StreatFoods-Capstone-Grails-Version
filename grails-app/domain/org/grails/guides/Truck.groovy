@@ -2,9 +2,9 @@ package org.grails.guides
 
 class Truck {
 
-    static hasOne = [truckOwner: User]
+    static belongsTo = [truckOwner: User]
 
-    static hasMany = [menu: Menu, reviews: Review]
+    static hasMany = [menuItems: Menu]
 
     String name
 

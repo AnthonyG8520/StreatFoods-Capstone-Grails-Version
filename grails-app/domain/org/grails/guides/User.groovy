@@ -2,10 +2,6 @@ package org.grails.guides
 
 class User {
 
-    static hasOne = [truck: Truck]
-
-    static hasMany = [reviews: Review]
-
     String username
 
     String password
@@ -13,6 +9,8 @@ class User {
     String email
 
     boolean truckOwner
+
+    Truck truck
 
     static constraints = {
         truck nullable: true
