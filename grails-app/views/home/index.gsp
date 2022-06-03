@@ -17,8 +17,10 @@
         <g:each in="${truckList}" var="truck">
             <li>
                 <g:link controller="truck" action="show" id="${truck.id}">
-                    ${truck.name}
+                    <h5>${truck.name}</h5>
                 </g:link>
+                <p>Description: ${truck.description}</p>
+                <p>Phone number: ${truck.phone}</p>
             </li>
         </g:each>
     </ul>

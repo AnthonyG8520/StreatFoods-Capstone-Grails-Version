@@ -14,7 +14,7 @@ class BootStrap {
 
         User user = userService.save("Anthony", "pass", "ant@gmail", false)
 
-        Truck truck = truckService.save("foodTruck", user)
+        Truck truck = truckService.save("FoodTruck", "Lots of food to choose from here", "2109199199" ,user)
 
         Menu item = menuService.save("Hotdog", "Huge Hotdog", truck)
 
