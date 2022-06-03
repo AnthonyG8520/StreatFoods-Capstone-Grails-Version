@@ -1,10 +1,10 @@
 package streatfoods.capstone.grails.version
 
 import grails.testing.web.controllers.ControllerUnitTest
-import org.grails.guides.scaffolding.MenuController
+import org.grails.guides.scaffolding.HomeController
 import spock.lang.Specification
 
-class MenuControllerSpec extends Specification implements ControllerUnitTest<MenuController> {
+class HomeControllerSpec extends Specification implements ControllerUnitTest<HomeController> {
 
     def setup() {
     }

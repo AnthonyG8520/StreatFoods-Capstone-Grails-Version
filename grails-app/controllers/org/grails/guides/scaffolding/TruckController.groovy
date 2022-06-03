@@ -1,6 +1,15 @@
 package org.grails.guides.scaffolding
 
+import groovy.transform.CompileStatic
+import org.grails.guides.Truck
+
+@CompileStatic
 class TruckController {
 
-    def index() { }
+    static scaffold = Truck
+
+    def show(Truck truck){
+        respond truck
+    }
+
 }
