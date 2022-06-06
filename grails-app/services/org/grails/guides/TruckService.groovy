@@ -7,4 +7,6 @@ interface TruckService {
 
     Truck save(String name, String description, String phone, User truckOwner)
 
+    Truck save (String name, User truckOwner)
+
 }
