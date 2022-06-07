@@ -12,7 +12,10 @@
 </head>
 
 <body>
-    <h1>Home page</h1>
+    <nav>
+        <h1>Home page</h1>
+        <g:link controller="user" action="login">Login</g:link>
+    </nav>
     <ul>
         <g:each in="${truckList}" var="truck">
             <li>

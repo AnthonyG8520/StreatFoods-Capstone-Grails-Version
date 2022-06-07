@@ -21,6 +21,28 @@ class UserController {
         respond userService.list(params), model:[userCount: userService.count()]
     }
 
+//    def login(){
+//        respond([user: session.user])
+//    }
+//
+//    def logUser(String username, String password){
+//        def user = User.findByUsername(username)\
+//
+//        if(userService.list(params).contains(username) && password.equals(user.password)){
+//            session.user = user
+//            println 'logged'
+//        }
+//
+////        println session.user
+//
+//        redirect(controller: "home", action: "index")
+//    }
+//
+//    def logout() {
+//        session.invalidate()
+//        redirect(action: "login")
+//    }
+
     def show(Long id) {
         respond userService.get(id)
     }
