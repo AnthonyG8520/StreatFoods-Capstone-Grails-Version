@@ -15,7 +15,7 @@
     <g:form action="logUser">
         <label>Username</label><br><input type="text" name="username"><br>
         <label>password</label><br><input type="text" name="password"><br>
-        <input type="submit">
+        <g:submitButton name="login"/>
     </g:form>
 </body>
 </html>
